@@ -1,10 +1,15 @@
 package application;
+import boadgame.Position;
+
+
 
 public class Program {
 
 	public static void main(String[] args) {
 		
-		System.out.print("Hello world !");
+		Position pos = new Position(3,5);
+		
+		System.out.print(pos);
 
 	}
 
